@@ -5,17 +5,16 @@ O valor pago por uma apólice de seguro é composto pela soma das coberturas con
 Leve em consideração que:
  - o resto da divisão do rateio é alocado na primeira parcela
  - o juros deverá ser aplicado ao valor total (soma das coberturas) com a regra de juros compostos.
-
+ - a formula de juros compostos não se aplica para taxas negativas nem para períodos negativos
 ---
 
 ### Fórmula juros compostos
-**M = V (1+i)^t**
+**P = V (1+i)^t**
 Onde:
-- M = montante
-- V = valor
-- i = taxa
-- t = períodos
-
+- P = Valor a ser pago
+- V = Valor total
+- i = Taxa de juros
+- t = Quantidade de parcelas
 ----
 
 ### Exemplo de entrada
