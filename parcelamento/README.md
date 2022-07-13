@@ -9,10 +9,10 @@ Leve em consideração que:
 ---
 
 ### Fórmula juros compostos
-**M = C (1+i)^t**
+**M = V (1+i)^t**
 Onde:
 - M = montante
-- C = capital
+- V = valor
 - i = taxa
 - t = períodos
 
